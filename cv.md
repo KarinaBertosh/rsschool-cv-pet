@@ -1,1 +1,1 @@
-Karina
+#Karina Bertosh (instagram.com)
