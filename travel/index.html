@@ -12,51 +12,92 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="./icons/favicon32.png" type="image/ico" />
   </head>
   <body>
     <header class="header-background">
       <div class="wrapper header-items">
         <div class="logo">
-          <img class="logo-img" src="./images/logo.svg" alt="logo" />
+          <img class="logo-img" src="./icons/logo.svg" alt="logo" />
           <p class="logo-text">Travel Portal</p>
         </div>
-
-        <ul class="header-menu">
-          <li class="header-menu-item">
-            <a href="#!" class="menu-url">How It Works</a>
-          </li>
-          <li class="header-menu-item">
-            <a href="#!" class="menu-url">Your Trip</a>
-          </li>
-          <li class="header-menu-item">
-            <a href="#!" class="menu-url">Destinations</a>
-          </li>
-          <li class="header-menu-item">
-            <a href="#!" class="menu-url">Travel Stories</a>
-          </li>
-        </ul>
+        <nav>
+          <ul class="header-menu">
+            <li class="header-menu-item">
+              <a href="#!" class="menu-url">How It Works</a>
+            </li>
+            <li class="header-menu-item">
+              <a href="#!" class="menu-url">Your Trip</a>
+            </li>
+            <li class="header-menu-item">
+              <a href="#!" class="menu-url">Destinations</a>
+            </li>
+            <li class="header-menu-item">
+              <a href="#!" class="menu-url">Travel Stories</a>
+            </li>
+          </ul>
+        </nav>
 
         <button class="login-btn">Login</button>
       </div>
     </header>
 
     <main>
-      <section class="explore-bg">
+      <section class="preview">
         <div class="wrapper">
-          <h1 class="h1">Explore the beauty of the World</h1>
-          <p>Receive personalized recommendations for countries, hotels, activities and more</p>
-          <div class="explore">
-            <p>What would you like to do?</p>
-            <button class="login-btn">Login</button>
-            
+          <div class="preview-field">
+            <h1 class="h1">Explore the beauty of the World</h1>
+            <p class="recommendations-text">
+              Receive personalized recommendations for countries, hotels,
+              activities and more
+            </p>
+            <div class="preview-bg">
+              <p class="would-text">What would you like to do?</p>
+              <button class="preview-button">Start Planning</button>
+            </div>
           </div>
-
-
         </div>
       </section>
 
-      <section>
-        <div class="wrapper"></div>
+      <section class="wrapper steps">
+        <h2 class="steps-title">3 STEPS TO THE PERFECT TRIP</h2>
+        <div class="steps-icons">
+          <div class="step-icon">
+            <img src="./icons/iconBicycle.svg" class="icon" />
+
+            <p class="steps-icon-text">Tell us what you want to do</p>
+          </div>
+
+          <div class="step-icon">
+            <img src="./icons/iconBicycle.svg" class="icon" />
+
+            <p class="steps-icon-text">Share us preferable dates</p>
+          </div>
+
+          <div class="step-icon">
+            <img src="./icons/iconFlight.svg" class="icon" />
+
+            <p class="steps-icon-text">We will give you recommendations</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="destinations">
+        <div>
+          <h2 class="destinations-title">POPULAR DESTINATIONS</h2>
+        </div>
+        <div class="destinations-image" >
+          <div>
+            <img src="./images/sea.jpg" />
+          </div>
+          <div>
+            <img src="./images/bridge.jpg"/>
+          </div>
+          <div>
+            <img src="./images/pier.jpg"/>
+          </div>
+        </div>
+    
       </section>
     </main>
 

@@ -5,13 +5,12 @@
 
 .wrapper {
   width: 1200px;
-  margin:0 auto;
+  margin: 0 auto;
 }
 
 .header-background {
   height: 90px;
-  background: #F2785C;
-  opacity: 0.8;
+  background: rgba(242, 120, 92, 0.7);
   display: flex;
 }
 
@@ -23,15 +22,19 @@
 
 .logo {
   display: flex;
+  cursor: pointer;
 
 }
+
 .logo-img {
   margin-right: 5px;
 
+
 }
+
 .logo-text {
   font: bold 32px Magra, fontfuror;
-  color:#fff;
+  color: #fff;
 }
 
 .header-menu {
@@ -43,12 +46,13 @@
   font-weight: 500;
 
 }
+
 .header-menu-item {
-  list-style-type: none; 
+  list-style-type: none;
 }
 
 .menu-url {
-  color:#fff;
+  color: #fff;
   text-decoration: none;
 
 }
@@ -58,43 +62,176 @@
 } */
 
 .login-btn {
-    display: flex;
-    font: 16px "Red Hat Text", sansserif;
-    color:#fff;
-    background-color: #0D606F;
-    justify-content: center;
-    align-items: center;
-    width: 103px;
-    height: 41px;
-    border-radius: 10px;
-    border: 0;
-    cursor: pointer;
-}
-
-
-.h1 {
-  font:80px Aleo, serif;
-  font-weight: 700;
-  color:#000;
-}
-
-.explore {
   display: flex;
   font: 16px "Red Hat Text", sansserif;
-  background-color: #fff;
-  opacity: 0.8;
+  color: #fff;
+  background-color: #0D606F;
+  justify-content: center;
+  align-items: center;
+  width: 103px;
+  height: 41px;
+  border-radius: 10px;
+  border: 0;
+  cursor: pointer;
+}
+
+/* main */
+/* section explore */
+
+.preview-field {
+  margin-top: 32px;
+  width: 890px;
+
+}
+
+.preview {
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+  background-image: url(./images/explore.jpg);
+  height: 765px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* .preview {
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+  margin-bottom: 150px;
+}
+.preview::after {
+content: '';
+
+background-image: url(./images/explore.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 765px;
+top: -50px;
+position: absolute;
+} */
+.h1 {
+  font: 80px Aleo, serif;
+  font-weight: 700;
+  color: #fff;
+}
+
+.recommendations-text {
+  font: italic 20px Aleo, serif;
+  font-weight: 700;
+  color: #fff;
+  margin-top: 59px;
+  margin-bottom: 47px;
+}
+
+.would-text {
+  font: italic 24px Aleo, serif;
+  font-weight: 400;
+  color: #F2785C;
+  margin-left: 23px;
+}
+
+
+.preview-bg {
+  display: flex;
+  font: 16px "Red Hat Text", sansserif;
+  background: rgba(255, 255, 255, 0.7);
   align-items: center;
   border-radius: 10px;
   border: 0;
-  width: 892px;
-  height: 95px;
-  left: 120px;
-  top: 416px;
+  padding: 18px;
+  box-sizing: border-box;
+  justify-content: space-between;
+
+
 }
 
-.explore-bg {
-  background-image: url(images/explore.jpg);
-  margin: 0 auto;
-  width: 1440px;
-  height: 765px;
+.preview-button {
+  display: block;
+  color: #fff;
+  background-color: #0D606F;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid black;
+  cursor: pointer;
+  width: 228px;
+  height: 59px;
+  font: 20px "Red Hat Text", sansserif;
+  cursor: pointer;
+}
+
+/* section steps */
+
+.steps {
+  width: 1177px;
+  height: 247px;
+}
+
+  
+
+
+.steps-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+  
+
+}
+
+
+.steps-title {
+  font: 40px "Red Hat Text", sansserif;
+  color: #F2785C;
+  font-weight: 500;
+  justify-content: center;
+  display: flex;
+  margin-top: 80px;
+
+}
+
+.steps-icon-text {
+  font: italic 20px Aleo, serif;
+  font-weight: 400;
+  color: #0D606F;
+  margin-top: 30px;
+
+}
+
+.icon{
+  background-color: #F2785C;
+  border-radius: 16px;
+  padding: 28px 25px 27px 25px;
+  color: #fff;
+}
+
+.step-icon{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* section destinations */
+
+.destinations {
+
+}
+
+.destinations-title {
+  font: 40px "Red Hat Text", sansserif;
+  font-weight: 500;
+  color: #F2785C;
+  justify-content: center;
+  display: flex;
+
+}
+.destinations-image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+
 }
